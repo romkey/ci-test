@@ -39,4 +39,4 @@ jobs:
           required-libraries: ${{ env.REQUIRED_LIBRARIES }}
           sketch-names: '**.cpp'
           sketch-names-find-start: 'src'
-          build-properties: '-Wno-maybe-uninitialized'
+          build-properties: '-Wno-error'
