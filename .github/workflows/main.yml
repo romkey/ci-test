@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      REQUIRED_LIBRARIES: 
+      REQUIRED_LIBRARIES: FastLED
       GITHUB_TOKEN: ${{ github.token }}
 
     steps:
