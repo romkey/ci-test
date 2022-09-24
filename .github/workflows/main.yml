@@ -42,3 +42,4 @@ jobs:
           sketch-names: '**.cpp'
           sketch-names-find-start: 'src'
           build-properties: '-Wno-error'
+          extra-arduino-cli-args: "--warnings default"
