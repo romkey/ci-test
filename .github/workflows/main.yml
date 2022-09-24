@@ -26,6 +26,8 @@ jobs:
     env:
       REQUIRED_LIBRARIES: Pixie_Chroma,FastLED
       GITHUB_TOKEN: ${{ github.token }}
+      DEBUG_INSTALL: true
+      DEBUG_COMPILE: true
 
     steps:
       - name: Checkout Repo
