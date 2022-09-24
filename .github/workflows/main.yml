@@ -37,5 +37,5 @@ jobs:
           arduino-board-fqbn: "esp32:esp32:nodemcu-32s"
           platform-url: "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json"
           required-libraries: ${{ env.REQUIRED_LIBRARIES }}
-	  sketch_names: '**.cpp'
-	  sketch_names_find_start: 'src'
+          sketch_names: '**.cpp'
+          sketch_names_find_start: 'src'
