@@ -23,7 +23,7 @@ void setup() {
 
   pix.clear();
 
-  pix.delay(1);
+  xpix.delay(1);
 }
 
 void loop() {
